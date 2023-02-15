@@ -12,13 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePageView(),
     );
   }
 }
-
-  // This widget is the root of your application.
-  
